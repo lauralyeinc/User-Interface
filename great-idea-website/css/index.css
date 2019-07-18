@@ -64,3 +64,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width: 880px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.Nav{
+	width: 880px;
+	color: black;
+	text-decoration-style: none;
+	margin-top: 35px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.logo{
+	width: auto;
+	height: auto;	
+}
+
+header nav a:hover{
+text-decoration: line;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.top{
+	width: 880px;
+	height: auto;
+	margin: 0 auto;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.QuoteArea{
+	width: 880px;
+	margin: 0 auto;
+	padding: 20px;
+	display: inline-block;
+}
+
+h1{
+	width: 200px;
+	height: 200px;
+	font-size: 50px;
+	text-align: center;
+}
+
+h4{
+	padding: 5px; 
+	margin: 0 auto; 
+}
+
+.button{
+	width: 60px;
+	height: 45px;
+	border: 1px solid black;
+	display: inline-block;	
+	text-align: center;
+}
+
+.CodeImg{
+	width: 50%;
+	margin: 20px;
+	display: inline-block;
+}
+
+.middle{
+	width: 250px;
+	height: 300px;
+	padding: 10px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.FeaturesBox{
+	margin: 5 auto;
+	padding: 15px;
+	display: inline;
+}
+
+.AboutBox{
+	margin: 15 auto;
+	padding: 15px; 
+	display: 
+}
+
+.MiddleImg{
+	margin: 0 auto; 
+	padding: 10px;
+	border: 5px;
+}
+
+.bottom{
+	width: 250px;
+	height: 300px;
+	padding: 10px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.Servicesbox{
+	padding: 15px; 
+	margin: 0 auto; 
+}
+
+.Contact{
+	width: 880px;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	padding: 40px;
+	margin: 0 auto;
+}
