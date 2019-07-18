@@ -64,25 +64,40 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width: 880px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
 .Nav{
+	width: 880px;
 	color: black;
 	text-decoration-style: none;
-	padding: 15px;
-	display: inline;
-
+	margin-top: 35px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .logo{
 	width: auto;
-	height: auto;
-	padding: 15px;
-	margin: 0 auto; 
+	height: auto;	
 }
 
-top{
-	width: 150px;
-	height: 100px;
-	padding: 40px;
+header nav a:hover{
+text-decoration: line;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.top{
+	width: 880px;
+	height: auto;
 	margin: 0 auto;
 	border-bottom-color: black;
 	border-bottom-style: solid;
@@ -90,13 +105,17 @@ top{
 }
 
 .QuoteArea{
-margin: 0 auto;
-padding: 20px;
+	width: 880px;
+	margin: 0 auto;
+	padding: 20px;
+	display: inline-block;
 }
 
 h1{
 	width: 200px;
 	height: 200px;
+	font-size: 50px;
+	text-align: center;
 }
 
 h4{
@@ -104,18 +123,18 @@ h4{
 	margin: 0 auto; 
 }
 
-.Quote{
+.button{
 	width: 60px;
 	height: 45px;
 	border: 1px solid black;
-	padding: 20px;
-	box-sizing: border-box
-	margin: 0 auto;
+	display: inline-block;	
+	text-align: center;
 }
 
 .CodeImg{
-	padding:10px;
-	margin: 0 auto; 
+	width: 50%;
+	margin: 20px;
+	display: inline-block;
 }
 
 .middle{
@@ -123,16 +142,19 @@ h4{
 	height: 300px;
 	padding: 10px;
 	margin: 0 auto;
+	display: inline-block;
 }
 
 .FeaturesBox{
 	margin: 5 auto;
 	padding: 15px;
+	display: inline;
 }
 
 .AboutBox{
 	margin: 15 auto;
 	padding: 15px; 
+	display: 
 }
 
 .MiddleImg{
@@ -146,9 +168,22 @@ h4{
 	height: 300px;
 	padding: 10px;
 	margin: 0 auto;
+	display: inline-block;
 }
 
 .Servicesbox{
 	padding: 15px; 
 	margin: 0 auto; 
+}
+
+.Contact{
+	width: 880px;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	padding: 40px;
+	margin: 0 auto;
 }
